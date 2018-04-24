@@ -6,10 +6,21 @@
 	objectVersion = 50;
 	objects = {
 
+/* Begin PBXFileReference section */
+		1BA71915208FE624003B3B1E /* dgemm-naive.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "dgemm-naive.c"; sourceTree = "<group>"; };
+		1BA71916208FE624003B3B1E /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		1BA71917208FE624003B3B1E /* benchmark.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = benchmark.c; sourceTree = "<group>"; };
+		1BA71918208FE624003B3B1E /* dgemm-optimize.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "dgemm-optimize.c"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
 /* Begin PBXGroup section */
 		1BA7190A208FE617003B3B1E = {
 			isa = PBXGroup;
 			children = (
+				1BA71917208FE624003B3B1E /* benchmark.c */,
+				1BA71915208FE624003B3B1E /* dgemm-naive.c */,
+				1BA71918208FE624003B3B1E /* dgemm-optimize.c */,
+				1BA71916208FE624003B3B1E /* Makefile */,
 			);
 			sourceTree = "<group>";
 		};
